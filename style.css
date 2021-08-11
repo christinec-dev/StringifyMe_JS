@@ -1,0 +1,65 @@
+/*------------------- Credentials -------------------------- 
+Author: Christine Coomans
+Date Created: 2020/09/11
+/*----------------------------------------------------------*/
+
+/*----------------------General Styling------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+body {
+    background: linear-gradient(to right, #ffd971, #ff858d) 100%;
+}
+
+* {
+    text-align: center;
+    font-family: 'Poppins',
+        sans-serif;
+    color: #232323;
+}
+
+/*----------------------Text Styling------------------------------------*/
+h1 {
+    margin-bottom: 1em;
+    margin-top: 3em;
+    font-family: 'Calistoga',
+        cursive;
+    font-weight: 400;
+    font-size: 56px;
+    color: #fff;
+    text-shadow: 1px 1px #404040a8;
+}
+
+form {
+    margin: 15px;
+    font-size: 22px;
+}
+
+input {
+    width: 25%;
+}
+
+/*----------------------Visual Styling------------------------------------*/
+.btn {
+    width: 15%;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 2em;
+    background-color: coral;
+    border: 3px dashed #eeecec;
+    padding: 6px;
+}
+
+.btn:hover {
+    background-color: #ff858d;
+    border: 3px dashed #232323;
+    box-shadow: 1px 1px #ff858d;
+}
+
+#here {
+    margin-top: 2em;
+    font-size: 18px;
+    background-color: #232323;
+    color: #fff;
+    font-weight: 100;
+}
